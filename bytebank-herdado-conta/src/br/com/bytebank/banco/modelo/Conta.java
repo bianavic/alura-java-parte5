@@ -10,6 +10,16 @@
 
 package br.com.bytebank.banco.modelo;
 
+
+// sempre acima membros publicos
+/**
+ * Classe representa a moldura de uma conta
+ *
+ * @author fabiana.assami
+ * @version 0.1
+ *
+ */
+
 public abstract class Conta { // visivel em qquer lugar, dentro e fora do pacote
 
     protected double saldo; // é visivel dentro do pacote e publico para os filhos
@@ -18,6 +28,13 @@ public abstract class Conta { // visivel em qquer lugar, dentro e fora do pacote
     private int numero;
     private Cliente titular;
     private static int total = 0;
+
+    // em cima do construtor publico
+    /**
+     * Construtor para inicializar o objeto Conta a partir da agencia e numero
+     * @param agencia
+     * @param numero
+     */
     
     public Conta(int agencia, int numero){
         Conta.total++;
@@ -29,6 +46,14 @@ public abstract class Conta { // visivel em qquer lugar, dentro e fora do pacote
     }
 
     public abstract void deposita(double valor);
+
+    // em cima do metodo
+    /**
+     *Valor precisa ser maior do que saldo
+     *
+     * @param valor
+     * @throws SaldoInsuficienteException // esta é a excecao que o metodo joga
+     */
 
     public void saca(double valor) throws SaldoInsuficienteException{
     	

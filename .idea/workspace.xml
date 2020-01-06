@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="697c7c57-48f7-4dc9-85ec-581ea8fbd885" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bytebank-herdado-conta/src/br/com/bytebank/banco/modelo/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/bytebank-herdado-conta/src/br/com/bytebank/banco/modelo/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bytebank-herdado-conta/src/br/com/bytebank/banco/modelo/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/bytebank-herdado-conta/src/br/com/bytebank/banco/modelo/Conta.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578327384663</updated>
       <workItem from="1578327385919" duration="307000" />
-      <workItem from="1578328016600" duration="2024000" />
+      <workItem from="1578328016600" duration="3233000" />
     </task>
     <servers />
   </component>
