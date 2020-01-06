@@ -1,9 +1,19 @@
+// modificadores, ordem do + restritivo para o -
+// private, default, protected, public
+
+// O modificador protected funciona igual ao *<<package private>>
+// mas adiciona a visibilidade para os filhos (chamado de "publico para os filhos").
+
+// A ausência do modificador, também chamado de package private ou default,
+// o membro fica visível na classe e no package,
+// mas é invisível fora do pacote (nem para filhos).
+
 package br.com.bytebank.banco.modelo;
 
 public abstract class Conta { // visivel em qquer lugar, dentro e fora do pacote
 
     protected double saldo; // é visivel dentro do pacote e publico para os filhos
-    // <<package private>> só visivel dentro pacote
+    // <<package private>> só visivel dentro pacote OU DEFAULT (padrao)
     private int agencia; // visivel apenas dentro da classe
     private int numero;
     private Cliente titular;
