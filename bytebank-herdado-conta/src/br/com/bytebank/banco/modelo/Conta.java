@@ -1,9 +1,10 @@
 package br.com.bytebank.banco.modelo;
 
-public abstract class Conta {
+public abstract class Conta { // visivel em qquer lugar, dentro e fora do pacote
 
-    protected double saldo;
-    private int agencia;
+    protected double saldo; // é visivel dentro do pacote e publico para os filhos
+    // <<package private>> só visivel dentro pacote
+    private int agencia; // visivel apenas dentro da classe
     private int numero;
     private Cliente titular;
     private static int total = 0;

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="697c7c57-48f7-4dc9-85ec-581ea8fbd885" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/java-parte5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java-parte5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank-herdado-conta/src/br/com/bytebank/banco/especial/ContaEspecial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bytebank-herdado-conta/src/br/com/bytebank/banco/modelo/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/bytebank-herdado-conta/src/br/com/bytebank/banco/modelo/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bytebank-herdado-conta/src/br/com/bytebank/banco/teste/TesteContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/bytebank-herdado-conta/src/br/com/bytebank/banco/teste/TesteContas.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +14,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1W1qKSkQLwdDGy6aZzGopFuQM5P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -69,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578327384663</updated>
       <workItem from="1578327385919" duration="307000" />
-      <workItem from="1578328016600" duration="759000" />
+      <workItem from="1578328016600" duration="1490000" />
     </task>
     <servers />
   </component>
