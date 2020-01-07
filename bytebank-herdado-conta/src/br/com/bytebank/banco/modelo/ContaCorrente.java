@@ -22,5 +22,15 @@ public class ContaCorrente extends Conta implements Tributavel {
 	public double getValorImposto() {	
 		return super.saldo * 0.01;
 	}
-	
+
+	@Override
+	public String toString() { // metodo toString() existe para ser sobreescrito e deve
+		// devolver informacoes sobre o estado do objeto
+
+		// comentaremos abaixo pois não queremos chamar um método da classe Object, e sim,
+		// dar um significado maior para o método.
+		// return super.toString();
+
+		return "ContaCorrente" + super.toString();
+	}
 }

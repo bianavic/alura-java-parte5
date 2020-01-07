@@ -109,4 +109,10 @@ public abstract class Conta { // visivel em qquer lugar, dentro e fora do pacote
         return Conta.total;
     }
 
+    // reaproveitar codigo toString() para utilizar em ambas contas, corrente e poupanca.
+    @Override
+    public String toString() {
+        return " Numero: " + this.numero + ", Agencia: " + this.agencia;
+    }
+
 }
