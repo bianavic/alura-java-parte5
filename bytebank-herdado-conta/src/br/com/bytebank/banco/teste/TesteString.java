@@ -14,9 +14,11 @@ public class TesteString {
         // String outro = new String("Alura");
 
         // forma de alterar a String é criando outra
-        String outra = nome.replace("A", "a");
+        // String outra = nome.replace("A", "a");
 
-        // nome.toLowerCase();
+        String outra = nome.toLowerCase();
+
+        // nome.toLowerCase();trings na memoria
         System.out.println(nome);
         System.out.println(outra);
 
