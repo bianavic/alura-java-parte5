@@ -4,9 +4,14 @@ import br.com.bytebank.banco.especial.*;
 import br.com.bytebank.banco.modelo.ContaCorrente;
 import br.com.bytebank.banco.modelo.ContaPoupanca;
 import br.com.bytebank.banco.modelo.SaldoInsuficienteException;
+import java.lang.*; // é o unico pacote q nao precisa ser
+// importado pelo java.
+// atravews dele utilizamos as classes 'String' e 'System', 'Exception',
+// 'RuntimeException', 'NullPointerException', 'ArithmeticException'
 
 public class TesteContas {
 
+	// java.lang.String (FQN = full qualified name)
 	public static void main(String[] args) throws SaldoInsuficienteException{
 
 		ContaCorrente outra = null;
