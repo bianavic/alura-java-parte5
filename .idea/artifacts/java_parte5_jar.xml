@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="java-parte5:jar">
+    <output-path>$PROJECT_DIR$/bytebank-herdado-conta/artifacts/java_parte5_jar</output-path>
+    <root id="archive" name="java-parte5.jar">
+      <element id="module-output" name="java-parte5" />
+    </root>
+  </artifact>
+</component>
