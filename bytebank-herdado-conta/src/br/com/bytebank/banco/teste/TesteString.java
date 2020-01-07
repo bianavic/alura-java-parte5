@@ -3,24 +3,50 @@ package br.com.bytebank.banco.teste;
 public class TesteString {
     public static void main(String[] args) {
 
-        // String é uma classe, o tipo,
-        // nome é uma referencia, criando um objeto.
+        // SOBRECARGA = quando um metodo possui 2 parametros
 
-        String nome = "Alura"; // OBJECT LITERAL = uma String nao pode ser alterado
-        // imutabilidade. Uma x criado nao consegue alterar mais.
-        // a nao ser que vc crie uma NOVA String
+//        String vazio = ""; // esta vazio
+//        String naoVazio = " "; // nao esta vazio
+//
+//        System.out.println(vazio.isEmpty());
+//        System.out.println(naoVazio.isEmpty());
 
-        // unico momento que nao precisa usar new para criar objeto
-        // String outro = new String("Alura");
+        String vazio = "    Alura";
+        String outroVazio = vazio.trim();
 
-        // forma de alterar a String é criando outra
-        // String outra = nome.replace("A", "a");
+        System.out.println(vazio.contains("Alura"));
+        System.out.println(outroVazio);
 
-        String outra = nome.toLowerCase();
+
+//        String nome = "Alura";
+//        System.out.println(nome.length());
+//
+//        for(int i = 0; i < nome.length(); i++) {
+//            System.out.println(nome.charAt(i));
+//        }
+
+//        String sub = nome.substring(1);
+//        System.out.println(sub);
+
+//        char c = nome.charAt(0);
+//        System.out.println(c);
+
+//        int pos = nome.indexOf("ur");
+//        System.out.println(pos);
+
+//        char c = 'A'; // aspas simples == um caractere
+//        char d = 'a';
+//
+//        String outra = nome.replace(c, d);
+
+        // String outra = nome.replace("Al", "aL");
+
+        //String outra = nome.toLowerCase();
 
         // nome.toLowerCase();trings na memoria
-        System.out.println(nome);
-        System.out.println(outra);
+//        System.out.println(nome);
+//        System.out.println(outra);
+
 
     }
 }
